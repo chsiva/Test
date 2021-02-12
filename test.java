@@ -1,9 +1,8 @@
-
 public class Tittle {
   
-  public staic void printTitleCat(String[] tittle, String[] cat){
-    for(int i = 0; i < tittle.length(); i++){
-      System.out.println("tittle : "+ tittle[i] + "Category : "+ cat[i]);
+  public static void printTitleCat(String[] tittle, String[] cat){
+    for(int i = 0; i < tittle.length; i++){
+      System.out.println("tittle : "+ tittle[i] + " Category : "+ cat[i]);
     }
   }
   public static void main(String[] args) {
@@ -17,11 +16,4 @@ public class Tittle {
   "5f19a84079572700079d28e0", "5f19a8763eae7b0007f5c45e" };
   printTitleCat(titles, categoriesArray);
   }
-}
-/**
- * Objective:
- * Write a method that takes in the 2 arrays provided as parameters then displays the values as:
- *  "title", "category"
- * In main, call the method that was created to test the function.
- */
 }
